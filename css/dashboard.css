@@ -1,0 +1,95 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+  }
+  .header-parent{
+    display: flex;
+    flex-direction: row;
+  }
+  h1 {
+    color: var(--color-primary);
+    font-size: 30px;
+  }
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+  }
+.situation {
+    text-align: center;
+    width: 170px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 5px;
+    color: red;
+    transition: all 0.1s ease-in;
+    cursor: pointer;
+    margin-right: 50px;
+  }
+  .situation a{
+    color: red;
+  }
+  #situation {
+    width: 100px;
+  }
+  #Home{
+    color: black;
+    width: 100px;
+    margin-left: 60px;
+  }
+#Home a{
+    color: black;
+    
+}
+h2{
+    margin-top: 40px;
+    font-size: 27px;
+}
+.parent{
+    width: 100%;
+    height: 130px;
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.child{
+    width: 140px;
+    height: 70px;
+    background-color: #1e66f72a;
+    margin-right: 10px;
+    border-radius: 10px;
+    color: blue;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.p-color{
+    color: black;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+.child-mail{
+    width: 170px;
+}
+.child-address{
+    width: 280px;
+}
+.id-child{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    text-align:center ;
+    padding-top: 5px;
+}

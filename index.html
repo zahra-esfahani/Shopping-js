@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Botostart Store</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Botostart Store</h1>
+      <div class="situation" id="situation">
+        <a href="./auth.html">Login</a>
+        <i class="fa-solid fa-right-to-bracket"></i>
+      </div>
+      <div class="situation" id="dashboard">
+        <a href="./dashboard.html">Dashboard</a>
+        <i class="fa-solid fa-house"></i>
+      </div>
+    </header>
+    <div class="search">
+      <h2>Shop</h2>
+      <input id="inpute-title" type="text" placeholder="Search product" />
+      <button id="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    <div class="prent-items">
+      <div id="element"></div>
+      <div class="items">
+        <div class="category">
+          <i class="fa-solid fa-list"></i>
+          <span>Categories</span>
+        </div>
+        <div class="parent diffrent">
+          <span>All</span>
+        </div>
+        <div class="parent">
+          <span>Electronics</span>
+        </div>
+        <div class="parent">
+          <span>Jewelery</span>
+        </div>
+        <div class="parent">
+          <span>Men's Clothing</span>
+        </div>
+        <div class="parent">
+          <span>Women's Clothing</span>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
